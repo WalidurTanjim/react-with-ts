@@ -2,7 +2,7 @@ import { useRef } from "react";
 
 const Ref = () => {
     const inputRef = useRef<HTMLInputElement | null>(null);
-    console.log(inputRef.current);
+    // console.log(inputRef.current);
 
     // handleClick handler
     const handleClick = () => {

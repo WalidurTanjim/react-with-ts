@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Greeting from "../../components/Greeting/Greeting";
 import Ref from "../../components/Ref/Ref";
+import Counter from "../../components/Counter/Counter";
 
 interface UserInterface {
     name: string;
@@ -36,6 +37,7 @@ const Home = () => {
             </div>
 
             <Ref />
+            <Counter />
         </div>
     );
 };
