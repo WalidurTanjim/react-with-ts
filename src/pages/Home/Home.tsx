@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Greeting from "../../components/Greeting/Greeting";
+import Ref from "../../components/Ref/Ref";
 
 interface UserInterface {
     name: string;
@@ -33,6 +34,8 @@ const Home = () => {
             <div className='flex items-center justify-center mt-2'>
                 <button className='outline-none border border-gray-200 rounded-md px-6 py-1 mt-2 hover:bg-gray-100 active:bg-transparent text-slate-700' onClick={() => setUser({ name: "Walidur Rahman", email: "walidur.rahman@gmail.com" })}>Set New User</button>
             </div>
+
+            <Ref />
         </div>
     );
 };
